@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override');
-const Movie = require('./models/movie');
+const Movie = require('./movie');
 
 mongoose.connect('mongodb://localhost:27017/moviebox', {
     useNewUrlParser: true,
